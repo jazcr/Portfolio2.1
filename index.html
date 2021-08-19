@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Prata&display=swap" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <title>JCR | Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-dark">
+        </nav>
+
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image" id="headImg" style="
+        background-image: url('./Assets/flowers.jpg');
+        height: 400px;">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3">Jasmine Rudolph</h1>
+                        <h4 class="mb-3">Software Developer</h4>
+                        <a class="btn btn-outline-light btn-lg" id="resBtn"
+                            href="./Assets/Rudolph_Jasmine_Resume2021.pdf" role="button">Download My Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="d-flex row row-cols-1 row-cols-md-2 g-4 mb-3" id="cards">
+        <!-- CARD 1 -->
+
+        <div class="card p-2" style="width: 18rem;">
+            <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Make My Day App</h5>
+                <p class="card-text">
+                    Simply generate random GIfs, fox images, and inspirational quotes to brighten your day. This app was created in a team setting.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Technologies Used:<br>
+                    HTML, CSS, JavaScript/jQuery
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/jazcr/Make_My_Day_app" class="card-link">GitHub Repo</a>
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="https://jazcr.github.io/Make_My_Day_app/index.html" class="card-link">View on Github Pages</a>
+            </div>
+        </div>
+        <!-- CARD 2 -->
+
+        <div class="card p-2" style="width: 18rem;">
+            <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">
+                    This simple weather app where you enter a city name into the search box and the current weather and the future 5 day forecast displays.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Technologies Used: <br> HTML, CSS & jQuery</li>
+                <li class="list-group-item">
+                    <a href="https://github.com/jazcr/weather-app" class="card-link">GitHub Repo</a>
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="file:///C:/Users/jazcr/Desktop/weather/index.html" class="card-link">View on Github Pages</a>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card p-2" style="width: 18rem;">
+            <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Vision Board</h5>
+                <p class="card-text">
+                    This Vision Board was one of my very first coding projects. After just a couple weeks of self teaching, I was able to code this up from scratch. 
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Technologies Used: <br> HTML & CSS</li>
+                <li class="list-group-item">
+                    <a href="https://github.com/jazcr/vision-board" class="card-link">GitHub Repo</a>
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="https://jazcr.github.io/vision-board/" class="card-link">View on Github Pages</a>
+            </div>
+        </div>
+
+
+        <!-- CARD 4 -->
+        <div class="card p-2" style="width: 18rem;">
+            <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Work Day Schedule</h5>
+                <p class="card-text">
+                    This is a simple scheduling app that allows you to input events for each hour of the typical work day. These events are saved to local storage, so they will not be lost when the page is refreshed.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Technologies Used: <br> HTML, CSS & jQuery</li>
+                <li class="list-group-item">
+                    <a href="https://github.com/jazcr/Work-Day-Schedule" class="card-link">GitHub Repo</a>
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="https://jazcr.github.io/Work-Day-Schedule/" class="card-link">View on Github Pages</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-lg-flex align-items-start mb-3 rounded" id="aboutSection">
+        <div class="container mx-3 my-3" id="contactList">
+            <h3 class="my-3" id="chat">Let's Chat!</h3>
+            <ul>
+                <li><a href="mailto:jazcrudolph@gmail.com" target="_BLANK">Email</a></li>
+                <li><a href="https://github.com/jazcr" target="_BLANK">Github</li>
+                <li><a href="https://www.linkedin.com/in/jasmine-rudolph-03072920b/" target="_BLANK"> Linkedin </a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" id="textPink" href="mailto:jazcrudolph@gmail.com!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" id="textPink" href="https://www.linkedin.com/in/jasmine-rudolph-03072920b/!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" id="textPink" href="https://github.com/jazcr!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <p class="madeWLove" id="textPink">made with <br><i class="far fa-heart" id="heart"></i> </p>
+            </div>
+        </footer>
+    </footer>
+</body>
+
+</html>

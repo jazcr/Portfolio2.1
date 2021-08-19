@@ -1,0 +1,80 @@
+
+* {
+    font-family: 'Prata', serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#textPink {
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #fde3e4;
+}
+
+#resBtn {
+    text-transform: capitalize;
+}
+
+#cards {
+    justify-content: center;
+    margin: 10px
+}
+
+/* .card {
+    flex: 1 0 200px;
+} */
+.card-title {
+    font-weight: bold;
+}
+
+#aboutSection {
+    margin: 12px;
+    background: #fde3e4;
+    height: 300px;
+}
+
+.aboutPar {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#chat {
+    font-weight: bolder;
+}
+
+/* footer */
+
+#heart {
+    color: #fde3e4;
+}
+
+#contactList {
+    text-align: center;
+}
+
+#contactList ul {
+    list-style-type: none;
+}
+
+#contactList li {
+
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+    padding: 3px 7px;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 90vw;
+        justify-content: center;
+        margin: 5px;
+    }
+}
