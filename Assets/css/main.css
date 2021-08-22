@@ -7,20 +7,48 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.padTop {
+    padding-top: 20px;
+}
+
+#backImg {
+    border-bottom: 7px solid #f5e5f3;
+}
 
 #textPink {
     text-transform: capitalize;
     font-weight: 100;
-    color: #fde3e4;
+    color: #f5e5f3;
+    border-radius: 0%;
+}
+
+#headshot {
+    height: 150px;
+    width: auto;
+    border-radius: 40%;
+    margin-bottom: 15px;
 }
 
 #resBtn {
     text-transform: capitalize;
 }
 
+#resBtn:hover {
+    background-color: rgb(150, 148, 149);
+    opacity: 50%;
+}
+
+#myProj {
+    margin-left: 50px;
+}
+
+.card-img-top {
+    min-height: 180px;
+}
+
 #cards {
     justify-content: center;
-    margin: 10px
+    margin: 10px;
 }
 
 /* .card {
@@ -30,14 +58,16 @@ html, body {
     font-weight: bold;
 }
 
-#aboutSection {
+.aboutSection {
     margin: 12px;
-    background: #fde3e4;
+    background: #f5e5f3;
     height: 300px;
+    border-radius: 10%;
+
 }
 
 .aboutPar {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 14px;
 }
 
@@ -47,21 +77,27 @@ html, body {
 
 /* footer */
 
+.purp {
+    color: rgb(206, 78, 142);
+}
 #heart {
-    color: #fde3e4;
+    color: #f5e5f3;
 }
 
 #contactList {
     text-align: center;
+    padding: 40px 0;
+
 }
 
 #contactList ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 #contactList li {
 
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     margin: 5px 20px;
     padding: 3px 7px;
@@ -76,5 +112,17 @@ html, body {
         width: 90vw;
         justify-content: center;
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutSection {
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+    .aboutPar {
+        font-size: 14px;
     }
 }
